@@ -494,3 +494,62 @@ tostring sting yapar
 uppercase
 
 valueof primitive tipini verir
+
+## Getter ve Setter
+degiskenlerin atanmasında ya da değerinin döndürülmesinde getter ve setterlar kullanılır. 
+
+```java
+//Classin degiskenleri randomNum ve story.
+
+public String getRandomNumer(){
+    return randomNum
+}
+public void setStory(String newStory){
+    this.story=newStory;
+
+}
+```
+
+## Dictionaries & Hash Maps!
+```java
+public class DictionaryPlace{
+    public static void main(String[] args) {
+
+        Map<String,String> trEnDic=new HashMap<String,String>();
+        //kutuphaneleri ekle
+        trEnDic.put("Monday","Pazartesi");
+        trEnDic.put("Tuesday","Salı");
+        trEnDic.put("Wednesday","Çarşamba");
+        trEnDic.put("Thursday","Perşembe");
+        trEnDic.put("Friday","Cumaa");
+        trEnDic.put("Saturday","Cumartesi");
+        trEnDic.put("Sunday","Pazar");
+        System.out.println(trEnDic.get("Monday"));
+        //
+        //
+        System.out.println(trEnDic.keySet());
+        System.out.println(trEnDic.values());
+        System.out.println("Size:"+trEnDic.size());
+        System.out.println(trEnDic.isEmpty());
+        trEnDic.remove("Monday");
+        trEnDic.replace("Friday","Cuma");
+        
+
+    
+
+    }
+    
+}
+
+```
+## INHERITENCE
+inheritence genetik özelliklerin sonraki nesle aktarılması gibi özetlenebilir.
+*extends* ile bir üstteki özellikleri o classa da ekleriz. 
+```java
+public class Dog extends Animal
+```
+
+### super()
+bu komut kullanıldığı classın bir üst constructorini calıstırır.super parantezin icine bir ust constructorın parametresi girilir.
+## Abstract Class
+Hiyeraşide çözüm sağlamak için kullanılır. Emin olmadıgın ozelliklerdeki sınıfların ortak catisi haline getirilebilir.
