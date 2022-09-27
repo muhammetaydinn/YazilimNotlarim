@@ -175,8 +175,12 @@ Polimorfizm, alt sınıfların ata sınıflardaki metotları geçersiz kılması
 ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/oop/polymorphism/figures/polimorfizm.jpg)
 
 ## Soyutlama (Abstraction)
+**UML de abstract class isimler italik yazılr**
+
 Bir sınıftan nesne üretimini istemiyorsak-mantıksız geliyorsa- bunu kullanabiliriz.
+
 **"abstract" Anahtar Kelimesi ve Soyut Sınıf Kavramı (Abstract Class)**
+
 Aynı şekilde Java'da sınıflarımızı tasarlarken bazı fonksiyonların ve işlevlerin sadece sınıf içinde kalması, dış dünyada bu sınıftan nesneleri kullanan kişilerin bu iç fonksiyonları bilemelerine gerek yoktur. Örneğin: KDV tutarını hesaplayan fonksiyonun sınıf içinde kullandığı birçok başka fonksiyon olabilir. Bu fonksiyonların sınıf dışına açılmasının bir anlamı yoktur. Sadece miktarı verip o miktara göre KDV tutarını hesaplayacak bir dış fonksiyon yeterlidir. Yazılım dünyasında bu nedenle soyutlama kavramı yazılım tasarımında önemli bir kavramdır. Soyutlama yapabilmek için "abstract" anahtar kelimesi, "interface" gibi yapılar bizlere yardımcı olmaktadır.
 
 Soyutlama için Java'da iki yöntem mevcuttur:
